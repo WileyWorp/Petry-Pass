@@ -1,6 +1,8 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 31);
     margin: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #headerDIV {
@@ -11,8 +13,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (max-aspect-ratio: 9/16) {
-    body {
-        background-color: rgb(32, 32, 32);
-    }
+#roomInputDIV {
+    display: block;
+    margin: 5px;
 }
