@@ -13,5 +13,5 @@ requestButton.addEventListener('click', function() {
 })
 
 document.getElementById('header').addEventListener('click', function() {
-    location.replace("/teacherView/index.html")
+    location.replace("./teacherView/index.html")
 })
