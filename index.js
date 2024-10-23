@@ -4,7 +4,7 @@ requestButton = document.getElementById('requestButton')
 enterButton.addEventListener('click', function() {
     if (document.getElementById('roomInputDIV').style.display = 'block')
     document.getElementById('roomInputDIV').style.display = 'none';
-    document.getElementById('room').style.display = 'block'
+    document.getElementById('room').style.display = 'inline-flex'
     document.getElementById('header').textContent = "Room #202"
 })
 
@@ -13,5 +13,6 @@ requestButton.addEventListener('click', function() {
 })
 
 document.getElementById('header').addEventListener('click', function() {
-    location.replace("https://wileyworp.github.io/Petry-Pass/teacherView/")
+    location.replace("./teacherView/")
+    // location.replace("https://wileyworp.github.io/Petry-Pass/teacherView/")
 })

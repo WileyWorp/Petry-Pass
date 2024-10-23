@@ -14,12 +14,12 @@ body {
 }
 
 #roomInputDIV {
-    display: none; /* Final display should be block */
+    display: block; /* Final display should be block */
     margin: 5px;
 }
 
 #room {
-    display: inline-flex; /* Final display should be none */
+    display: none; /* Final display should be none */
     margin-left: 5px;
     margin-top: 15vh;
 }
