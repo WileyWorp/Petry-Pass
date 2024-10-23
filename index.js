@@ -16,3 +16,16 @@ document.getElementById('header').addEventListener('click', function() {
     location.replace("./teacherView/")
     // location.replace("https://wileyworp.github.io/Petry-Pass/teacherView/")
 })
+var minutes = 0
+var seconds = 50
+
+setInterval(function() {
+    seconds += 1
+    if (seconds == 60) {
+        seconds = 0
+        minutes += 1
+        document.getElementById('timer').innerHTML = minutes + ":" + seconds
+    } else {
+        document.getElementById('timer').innerHTML = minutes + ":" + seconds
+    }
+}, 1000)

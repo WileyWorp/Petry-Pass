@@ -8,6 +8,7 @@ document.getElementById('acceptButton').addEventListener('click', function() {
     setTimeout(function() {
         document.getElementById('h1').textContent = "Awaiting request..."
     }, 2500)
+    
 })
 
 document.getElementById('denyButton').addEventListener('click', function() {
