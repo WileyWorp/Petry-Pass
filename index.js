@@ -17,15 +17,22 @@ document.getElementById('header').addEventListener('click', function() {
     // location.replace("https://wileyworp.github.io/Petry-Pass/teacherView/")
 })
 var minutes = 0
-var seconds = 50
-
+var seconds = 0
+let accepted = 'false'
+if (accepted == 'true') {
 setInterval(function() {
     seconds += 1
+    if (seconds < 10) {
+        secondsUpdated = "0" + seconds
+    } else {
+        secondsUpdated = seconds
+    }
     if (seconds == 60) {
         seconds = 0
         minutes += 1
-        document.getElementById('timer').innerHTML = minutes + ":" + seconds
+        document.getElementById('timer').innerHTML = minutes + ":" + secondsUpdated
     } else {
-        document.getElementById('timer').innerHTML = minutes + ":" + seconds
+        document.getElementById('timer').innerHTML = minutes + ":" + secondsUpdated
     }
 }, 1000)
+}
