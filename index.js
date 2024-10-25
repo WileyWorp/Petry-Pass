@@ -1,5 +1,5 @@
-enterButton = document.getElementById('enterButton')
-requestButton = document.getElementById('requestButton')
+const enterButton = document.getElementById('enterButton')
+const requestButton = document.getElementById('requestButton')
 
 enterButton.addEventListener('click', function() {
     if (document.getElementById('roomInputDIV').style.display = 'block')
@@ -13,12 +13,14 @@ requestButton.addEventListener('click', function() {
 })
 
 document.getElementById('header').addEventListener('click', function() {
-    location.replace("/tView/tView.html")
-    // location.replace("https://wileyworp.github.io/Petry-Pass/teacherView/")
+    location.replace("./tView")
+    // location.replace("https://wileyworp.github.io/Petry-Pass/tView/")
 })
-var minutes = 0
-var seconds = 0
-var accepted = false
+
+let minutes = 0;
+let seconds = 0;
+let accepted = false;
+export { accepted };
 if (accepted == true) {
 setInterval(function() {
     seconds += 1
