@@ -13,13 +13,13 @@ requestButton.addEventListener('click', function() {
 })
 
 document.getElementById('header').addEventListener('click', function() {
-    location.replace("./teacherView/")
+    location.replace("/tView/tView.html")
     // location.replace("https://wileyworp.github.io/Petry-Pass/teacherView/")
 })
 var minutes = 0
 var seconds = 0
-let accepted = 'false'
-if (accepted == 'true') {
+var accepted = false
+if (accepted == true) {
 setInterval(function() {
     seconds += 1
     if (seconds < 10) {

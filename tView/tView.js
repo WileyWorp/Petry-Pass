@@ -1,3 +1,5 @@
+import { accepted } from "../index.js";
+document.getElementById("headerDIV").style.color = "red";
 document.getElementById('header').addEventListener('click', function() {
     location.replace("/")
     // location.replace("https://wileyworp.github.io/Petry-Pass/")
