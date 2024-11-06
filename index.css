@@ -14,12 +14,14 @@ body {
 }
 
 #roomInputDIV {
-    display: block; /* Final display should be block */
+    display: block;
+    /* Final display should be block */
     margin: 5px;
 }
 
 #room {
-    display: none; /* Final display should be none */
+    display: none;
+    /* Final display should be none */
     margin-left: 5px;
     margin-top: 15vh;
 }
@@ -31,7 +33,7 @@ body {
     width: 7vh;
     border: 5px solid green;
     text-align: center;
-    font-size:7vh;
+    font-size: 7vh;
     cursor: pointer;
 }
 
@@ -42,7 +44,7 @@ body {
     width: 7vh;
     border: 5px solid green;
     text-align: center;
-    font-size:7vh;
+    font-size: 7vh;
     cursor: pointer;
 }
 
@@ -53,6 +55,10 @@ body {
     width: 7vh;
     border: 5px solid darkred;
     text-align: center;
-    font-size:7vh;
+    font-size: 7vh;
     cursor: pointer;
+}
+
+#acceptedTimer {
+    display: none;
 }
