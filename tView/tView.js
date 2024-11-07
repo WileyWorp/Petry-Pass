@@ -1,5 +1,6 @@
 document.getElementById('header').addEventListener('click', function () {
     location.replace("https://wileyworp.github.io/Petry-Pass/")
+    localStorage.setItem("backToHome", "true")
 })
 
 document.getElementById('acceptButton').addEventListener('click', function () {
